@@ -11,23 +11,43 @@ body {
   align-items: center;
   flex-direction: column;
   min-height: 100vh;
+  background-color: #ffe13b;
 }
 
 h1, h2, .title {
   /* font-family: 'Krub', sans-serif; */
   font-weight: 700;
-  line-height: 1;
+  line-height: 0.9;
 }
 
 main {
-  max-width: 42em;
+  max-width: 40em;
+  padding: 2em;
+  background: white;
 }
 
 h1 {
   font-size: 4em;
   margin-bottom: 1em;
+  letter-spacing: 1px;
 }
 
 p, ul {
   margin-bottom: 1em;
+  letter-spacing: -0.2px;
+}
+
+.logo, .logofont {
+  text-transform: uppercase;
+  font-family: "Krub", sans-serif;
+}
+
+.logo {
+  display: inline-block;
+  padding: 5px;
+  border: 9px solid;
+  margin: -14px;
+  line-height: 0.8;
+  padding-left: 40px;
+  margin-left: -49px;
 }

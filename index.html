@@ -5,16 +5,27 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>UNKA.SPACE</title>
-  <link href="https://fonts.googleapis.com/css?family=Krub:700|Work+Sans:400,600&display=swap&subset=latin-ext" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Krub:500,700|Work+Sans:400,600&display=swap&subset=latin-ext" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   
   <main>
-    <h1>UNKA is <br/> Under Construction</h1>
-    <p>UNKA is a place in frosty Budapest, Hungary, that currently has 1 tiny desk, 6 stackable chairs and 1 pile of rubbish in the middle.</p>
-    <p>Later this year, which is the year 2020, it will also have a few more desks, a comfy couch, a kitchen with coffee, and maybe some plants and stuff, and thus it will turn into a place where you can come and work for a few hours, check your emails in peace, have that call in silence, go through the photos you took, get some writing done, draw something, attend a workshop, organize a workshop, learn something, drink plenty of water, refill your coffee.</p>
-    <p>If you could see yourself doing any of that here, drop your email in this box and we will reach out when we get closer to opening:<p>
+    <h1><span class="logo">Unka</span> is <br/> <span class="logofont">U</span>nder Construction</h1>
+    <p><span class="logofont">UNKA</span> is a place in frosty Budapest, Hungary, that currently has 1 tiny desk, 6 stackable chairs and 1 pile of rubbish in the middle.</p>
+    <p>Later this year, which is the year 2020, it will also have a few more desks, a comfy couch, a kitchen with good coffee, and maybe some plants 🌱 and stuff, and thus it will turn into a place where you can come and work for a few hours 👩‍💻, check your emails in peace 💌, have that call in silence ☎, go through the photos you took 📸, get some writing done 📝, draw something 🦒, attend a workshop 🍿, organize a workshop 👩‍🏫, learn something 🎓, drink plenty of water 🚰, and refill your coffee ☕️.</p>
+    <p>If you could see yourself doing any of that here, <label for="tlemail">drop your email in this box</label> and we will reach out when we get closer to opening:<p>
+    <form action="https://tinyletter.com/unka" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/unka', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+      <p class="inputs">
+        <input type="text" style="width:140px" name="email" id="tlemail" />
+        <input type="hidden" value="1" name="embed"/>
+        <input type="submit" value="Subscribe" />
+      </p>
+      <p>
+        <a href="https://tinyletter.com" target="_blank">powered by TinyLetter</a>
+      </p>
+    </form>
+        
   </main>
 
 </body>
