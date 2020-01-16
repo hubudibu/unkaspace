@@ -1,10 +1,13 @@
-html, body, div, h1, h2, h3, p, ul, ol {
+/* yellow is #ffe13b */
+
+html, body, div, h1, h2, h3, p, ul, ol, form {
   margin: 0;
   padding: 0;
 }
 
 body {
   font: 16px/1.5 'Work Sans', sans-serif;
+  color: #111;
   display: flex;
   padding: 1em;
   justify-content: center;
@@ -15,7 +18,6 @@ body {
 }
 
 h1, h2, .title {
-  /* font-family: 'Krub', sans-serif; */
   font-weight: 700;
   line-height: 1;
 }
@@ -27,7 +29,7 @@ main {
 }
 
 h1 {
-  margin-bottom: 1em;
+  margin-bottom: 0.75em;
   letter-spacing: 1px;
 }
 
@@ -76,5 +78,45 @@ p, ul {
 
 .glow:hover {
   transition: color .2s;
+  color: rebeccapurple;
+}
+
+form, .inputs {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 0;
+}
+
+form {
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1.5em;
+  margin-bottom: 2em;
+}
+
+input {
+  font: 16px/1 'Work Sans', sans-serif;
+  color: #111;
+  padding: 0.5em 1em;
+  background: none;
+  border: 5px solid;
+  margin-top: .5em;
+}
+
+input:focus {
+  outline: none;
+  border-color: #ffe13b;
+}
+
+.button {
+  background: #ffe13b;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.tiny {
+  font-size: .7em;
   color: rebeccapurple;
 }
